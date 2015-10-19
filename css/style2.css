@@ -1,18 +1,34 @@
-.panel h1 {
+.header-intro {
+	/*typography declarations*/
 	font-family: 'Vollkorn', serif;
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 26px;
-	color: #fff;
+	color: #000;
 }
-.panel h2 {
+.header-content {
+	/*typography declarations*/
 	font-family: 'Lato', sans-serif;
 	font-size: 24px;
 	color: #A1A8B2;
 	text-transform: uppercase;
 	font-style: italic;
 }
-.panel p {
+.header-quote {
+	/*typography declarations*/
 	font-family: 'Vollkorn', serif;
 	font-size: 16px;
-	color: #8FBCDB;
+	color: #D99A3A;
+}
+.panel {
+	background-image: url('http://i.imgur.com/CS0YS8B.jpg');
+	position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	width: 1400px;
+}
+.header-intro,
+.header-content,
+.header-quote {
+	text-align: center;
 }
