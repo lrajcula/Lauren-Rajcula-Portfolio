@@ -1,0 +1,123 @@
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0; 
+  }
+  .masthead-heading {
+        font-size: 2em;
+    }
+  .content-footer {
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: .9em;
+  }
+}
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+.masthead,
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+  text-align: center;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/yjMqgDT.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1260px;
+  height: 680px;
+  border-top: solid .5em #8FBCDB;
+}
+.masthead-intro {
+  /*Layout Declarations*/
+  margin-bottom: 2.5em;
+  /*Typography Declarations*/
+  font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+.masthead-heading {
+  /*Layout Declarations*/
+  margin-top: -2.75em;
+  /*Typography Declaractions*/
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #8FBCDB;
+  text-shadow: 2px 2px 4px #000;
+}
+.masthead-quote {
+  /*Layout Declarations*/
+  margin-top: -2em;
+  /*Typography Declarations*/
+  font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif !important;
+  font-size: 1.5em;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  color: #8FBCDB;
+  text-shadow: 1px 1px #fff;
+}
+.introduction-section,
+.projects {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.social, .list > li {
+  display: inline-block;
+}
+.introduction-section > p,
+.content-footer > p {
+  /*Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.section > h1 {
+  margin-top: 2em;
+}
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #8FBCDB;
+}
+a:active {
+  text-decoration: underline;
+}
+.content-footer {
+  text-align: center;
+  height: 200px;
+  padding-top: 4.0em;
+  padding-bottom: 1.0em;
+  background-color: #2F2F2F;
+}
+h1 {
+  color: #8FBCDB;
+  font-size: 2em;
+}
+h2 {
+  color: #a1a8b2;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.projects > h2 {
+  margin-left: auto;
+  color: #a1a8b2;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-style: italic;
+}
