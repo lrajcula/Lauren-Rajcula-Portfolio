@@ -1,0 +1,18 @@
+.panel h1 {
+	font-family: 'Vollkorn', serif;
+	font-size: 28px;
+	line-height: 26px;
+	color: #fff;
+}
+.panel h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: #A1A8B2;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.panel p {
+	font-family: 'Vollkorn', serif;
+	font-size: 16px;
+	color: #8FBCDB;
+}
